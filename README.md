@@ -53,20 +53,20 @@ bot.use(WechatyRoomClock(options))
 
 ```js
 {
-  	// 该用户微信id
-  	"CONTACTID": "wxid_nrsh4yc8yupm22",
-  	// 该用户昵称
-  	"CONTACTNAME": "isboyjc",
-    // 该用户打卡总数
-  	"CLOCKNUM": 170,
-  	"CLOCKINFO": {
-      // 该用户2020年打卡总数
-     	"2020": 69,
-      // 该用户2019年打卡总数
-     	"2019": 101
-  	},
-    // 该用户积分
-  	"INTEGRALNUM": 170
+  // 该用户微信id
+  "CONTACTID": "wxid_nrsh4yc8yupm22",
+  // 该用户昵称
+  "CONTACTNAME": "isboyjc",
+  // 该用户打卡总数
+  "CLOCKNUM": 170,
+  "CLOCKINFO": {
+    // 该用户2020年打卡总数
+    "2020": 69,
+    // 该用户2019年打卡总数
+    "2019": 101
+  },
+  // 该用户积分
+  "INTEGRALNUM": 170
 }
 ```
 
@@ -124,5 +124,7 @@ bot
 扫描二维码，加圈子微信，可进交流群哦，效果如下图，赶快来试试吧
 
 <img src="https://gitee.com/IsboyJC/PictureBed/raw/master/other/asdakshdajshdas1.jpeg" width="200" height="200" alt="图片名称" align=left />
+
+
 
 ![image-20200705213657340](https://gitee.com/IsboyJC/PictureBed/raw/master/other/image-20200705213657340.png)
