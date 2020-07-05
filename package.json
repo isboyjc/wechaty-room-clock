@@ -1,0 +1,34 @@
+{
+  "name": "wechaty-room-clock",
+  "version": "0.0.1",
+  "description": "integral, clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isboyjc/wechaty-room-clock.git"
+  },
+  "keywords": [
+    "wechaty",
+    "wechaty plugin",
+    "wechaty-room-clock",
+    "wechaty-roomClock",
+    "WechatyRoomClock"
+  ],
+  "author": "isboyjc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isboyjc/wechaty-room-clock/issues"
+  },
+  "homepage": "https://github.com/isboyjc/wechaty-room-clock#readme",
+  "dependencies": {
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "0.39.30",
+    "wechaty-puppet-padplus": "0.7.15"
+  }
+}
