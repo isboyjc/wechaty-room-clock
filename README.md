@@ -49,7 +49,7 @@ bot.use(WechatyRoomClock(options))
 | success           | String\|Function           | 打卡成功提示该用户的一句话，可为字符串类型，也可以是函数类型，函数类型时，有一个参数data，即当前群成员在本地数据库中的数据对象，函数最终需返回一个字符串function(data){return ...}，此项默认值请看下文示例 |
 | repeat   | String\|Function            | 重复打卡时提示该用户的一句话，可为字符串类型，也可以是函数类型，函数类型时，有一个参数data，即当前群成员在本地数据库中的数据对象，函数最终需返回一个字符串function(data){return ...}，此项默认值为 “今日已签到，请勿重复签到” |
 
-参数 `success` 和 `repeat` 为函数类型时行参 `data` 示例
+参数 `success` 和 `repeat` 为函数类型时形参 `data` 示例
 
 ```js
 {
